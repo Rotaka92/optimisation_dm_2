@@ -13,8 +13,8 @@ $ python main.py
 
 This command creates or updates the two following files:
 - [man_data/man_laposte.txt](man_data/man_laposte.txt):
-..** ```v crossroad_id long lat``` : list of all the crossroads (with inhabitants) (5358)
-..** ```p post_office_id``` : list of all the potential post offices (125)
+..* ```v crossroad_id long lat``` : list of all the crossroads (with inhabitants) (5358)
+..* ```p post_office_id``` : list of all the potential post offices (125)
 - [man_data/man_laposte_distance.txt](man_data/man_laposte_distance.txt)
 ..** ```d crossroad_id post_office_id distance``` : list of all the distances between one inhabitant and one post office
 
@@ -26,6 +26,24 @@ $ scip -c "read facility_location.zpl  optimize  display sols 0 quit" -l "result
 ## Results :
 
 We found that 13 post offices is the optimal solution:
+
+|  # | crossroad id |
+|----|--------------|
+|  1 |    283478116 |
+|  2 |    283483352 |
+|  3 |    283484290 |
+|  4 |    283492455 |
+|  5 |    283494345 |
+|  6 |    283498929 |
+|  7 |    283508235 |
+|  8 |    283511482 |
+|  9 |    283511666 |
+| 10 |    283520651 |
+| 11 |    283523904 |
+| 12 |    283523918 |
+| 13 |   1110284545 |
+
+Extract from [results/facility_location.txt](results/facility_location.txt):
 
 ```
 open#283478116                                      1   (obj:500)
