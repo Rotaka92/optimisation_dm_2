@@ -13,10 +13,10 @@ $ python main.py
 
 This command creates or updates the two following files:
 - [man_data/man_laposte.txt](man_data/man_laposte.txt):
-    ** ```v crossroad_id long lat``` : list of all the crossroads (with inhabitants) (5358)
-    ** ```p post_office_id``` : list of all the potential post offices (125)
+..** ```v crossroad_id long lat``` : list of all the crossroads (with inhabitants) (5358)
+..** ```p post_office_id``` : list of all the potential post offices (125)
 - [man_data/man_laposte_distance.txt](man_data/man_laposte_distance.txt)
-    ** ```d crossroad_id post_office_id distance``` : list of all the distances between one inhabitant and one post office
+..** ```d crossroad_id post_office_id distance``` : list of all the distances between one inhabitant and one post office
 
 Run the script below to solve the problem with SCIP and save the results in [results/facility_location.txt](results/facility_location.txt):
 ```
