@@ -1,0 +1,144 @@
+         7533143 function calls (7533137 primitive calls) in 4.728 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   669750    1.971    0.000    3.253    0.000 distance.py:128(calculate_distance)
+        1    0.855    0.855    1.034    1.034 distance.py:31(save_laposte_data)
+   669750    0.523    0.000    0.523    0.000 {built-in method builtins.round}
+        1    0.318    0.318    3.571    3.571 distance.py:114(get_distances)
+  1339500    0.309    0.000    0.309    0.000 {built-in method builtins.pow}
+   675236    0.177    0.000    0.177    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+  1339500    0.151    0.000    0.151    0.000 {built-in method math.cos}
+  1339500    0.149    0.000    0.149    0.000 {built-in method math.sin}
+   669750    0.081    0.000    0.081    0.000 {built-in method math.asin}
+   669750    0.070    0.000    0.070    0.000 {built-in method math.sqrt}
+        1    0.042    0.042    0.071    0.071 distance.py:76(get_arcs)
+        1    0.017    0.017    0.032    0.032 distance.py:53(get_crossroads)
+    34272    0.012    0.000    0.014    0.000 {method 'readline' of '_io.TextIOWrapper' objects}
+        1    0.010    0.010    4.728    4.728 main.py:1(<module>)
+    34270    0.009    0.000    0.009    0.000 {method 'startswith' of 'str' objects}
+    17135    0.008    0.000    0.008    0.000 {method 'split' of 'str' objects}
+    17135    0.006    0.000    0.011    0.000 distance.py:98(is_arc)
+    17135    0.004    0.000    0.007    0.000 distance.py:73(is_crossroad)
+    22499    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+    11777    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+     5358    0.002    0.000    0.002    0.000 distance.py:108(is_potential_post_office)
+        1    0.002    0.002    0.002    0.002 {built-in method posix.replace}
+        4    0.001    0.000    0.001    0.000 {built-in method io.open}
+        1    0.001    0.001    0.001    0.001 {built-in method builtins.compile}
+        1    0.001    0.001    0.001    0.001 {built-in method _imp.create_dynamic}
+        1    0.001    0.001    0.003    0.003 distance.py:105(<listcomp>)
+      124    0.001    0.000    0.001    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.open}
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
+      124    0.000    0.000    0.001    0.000 codecs.py:318(decode)
+       15    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+      124    0.000    0.000    0.000    0.000 codecs.py:330(getstate)
+        1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap_external>:106(_write_atomic)
+        9    0.000    0.000    0.000    0.000 distance.py:140(print_progress)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:830(get_data)
+        3    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+       10    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1233(find_spec)
+        1    0.000    0.000    0.000    0.000 {built-in method marshal.dumps}
+        1    0.000    0.000    3.678    3.678 distance.py:16(get_data)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:57(_path_join)
+        1    0.000    0.000    4.711    4.711 main.py:4(get_distance_data)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:861(_find_spec)
+        1    0.000    0.000    0.004    0.004 <frozen importlib._bootstrap_external>:743(get_code)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.FileIO' objects}
+      2/1    0.000    0.000    0.006    0.006 <frozen importlib._bootstrap>:958(_find_and_load)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1117(_get_spec)
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:208(_verbose_message)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:57(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:493(_init_module_attrs)
+        4    0.000    0.000    0.000    0.000 _bootlocale.py:23(getpreferredencoding)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:159(_get_module_lock)
+      2/1    0.000    0.000    0.006    0.006 <frozen importlib._bootstrap>:641(_load_unlocked)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:430(_validate_bytecode_header)
+        1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap_external>:850(set_data)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:59(<listcomp>)
+       46    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:146(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:263(cache_from_source)
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      4/2    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap>:197(_call_with_frames_removed)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1080(_path_importer_cache)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:77(acquire)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:497(_code_to_bytecode)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:524(spec_from_file_location)
+        1    0.000    0.000    0.002    0.002 distance.py:1(<module>)
+        1    0.000    0.000    0.006    0.006 <frozen importlib._bootstrap_external>:672(exec_module)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:919(create_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:102(release)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(__exit__)
+      2/1    0.000    0.000    0.006    0.006 <frozen importlib._bootstrap>:931(_find_and_load_unlocked)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:361(_get_cached)
+        2    0.000    0.000    0.000    0.000 distance.py:144(print_title)
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:553(module_from_spec)
+      2/1    0.000    0.000    4.728    4.728 {built-in method builtins.exec}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:75(_path_stat)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1228(_get_spec)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:834(__enter__)
+        1    0.000    0.000    0.003    0.003 distance.py:101(get_potential_post_offices)
+        1    0.000    0.000    0.000    0.000 distance.py:3(ManIsland)
+       24    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:142(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:47(_w_long)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:307(<genexpr>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:85(_path_is_mode_type)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:735(source_to_code)
+        2    0.000    0.000    0.000    0.000 codecs.py:185(__init__)
+        2    0.000    0.000    0.000    0.000 codecs.py:308(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:153(__exit__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:297(__enter__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:52(_r_long)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:355(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(cached)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:402(parent)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:698(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:771(find_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:63(_path_split)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:838(__exit__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:989(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:373(_calc_mode)
+        1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap_external>:845(_cache_bytecode)
+        2    0.000    0.000    0.000    0.000 codecs.py:259(__init__)
+        1    0.000    0.000    3.678    3.678 distance.py:9(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        4    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:37(_relax_case)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:293(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:94(_path_isfile)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:99(_path_isdir)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:908(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:927(exec_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1149(find_spec)
+        3    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        6    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(cb)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:410(has_location)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:393(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:800(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:840(path_stats)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:669(create_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:825(get_filename)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
