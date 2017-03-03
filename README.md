@@ -60,3 +60,7 @@ open#283523904                                      1   (obj:500)
 open#283523918                                      1   (obj:500)
 open#1110284545                                     1   (obj:500)
 ```
+
+## Authors
+
+Melanie Berard
